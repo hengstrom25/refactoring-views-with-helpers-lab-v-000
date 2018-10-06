@@ -4,6 +4,6 @@ module ArtistsHelper
     if song.artist.present?
       link_to song.artist.name, artist_path(song.artist)
     else
-      link_to 
+      link_to "Add Artist", 
   end
 end
