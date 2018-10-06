@@ -1,6 +1,6 @@
 module ArtistsHelper
   
   def display_artist(artist)
-    if 
+    if artist.
   end
 end
