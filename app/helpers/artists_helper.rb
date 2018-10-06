@@ -2,6 +2,6 @@ module ArtistsHelper
   
   def display_artist(artist)
     if song.artist.present?
-      link_to artist.
+      link_to song.artist_name
   end
 end
